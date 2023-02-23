@@ -1,0 +1,75 @@
+/* Write your code here. */
+
+.win-or-lose-container {
+  background-color: #ffffff33;
+  padding: 15px;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  padding: 10px 40px 20px 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .win-or-lose-container {
+    padding: 20px 40px 20px 40px;
+    flex-direction: row;
+  }
+}
+
+.win-or-lose-img {
+  height: 200px;
+}
+
+@media screen and (min-width: 768px) {
+  .win-or-lose-img {
+    margin-left: 30px;
+    height: 300px;
+  }
+}
+
+.game-result-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.result {
+  font-family: 'Roboto';
+  font-size: 25px;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  .result {
+    font-size: 35px;
+  }
+}
+
+.remarks {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  color: #ffffff;
+  margin: 0;
+}
+
+.points {
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: 500;
+  color: #6a59ff;
+  margin: 0;
+}
+
+.play-again-btn {
+  background-color: #ffce27;
+  border: 0;
+  border-radius: 20px;
+  padding: 10px 20px 10px 20px;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  color: #3d3d3d;
+  margin-top: 10px;
+}

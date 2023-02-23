@@ -1,0 +1,30 @@
+/* Write your code here. */
+
+.emoji-conatiner {
+  list-style-type: none;
+  background-color: #ffffff33;
+  padding: 15px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .emoji-conatiner {
+    padding: 25px;
+  }
+}
+
+.emoji {
+  height: 50px;
+  width: 50px;
+}
+
+@media screen and (min-width: 768px) {
+  .emoji {
+    height: 80px;
+    width: 80px;
+  }
+}
